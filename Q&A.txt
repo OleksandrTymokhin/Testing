@@ -1,0 +1,12 @@
+Git Q&A:
+
+Q:
+HEAD detached at Testing/Develop
+
+A:
+because git init moved HEAD to direct commit of Develop branch
+Fixed: 1. adding new branch is automatically moved HEAD
+2. moving HEAD manually
+git commit -m "..."  << understand where is HEAD
+git checkout master
+git cherry-pick <hash_of_commit_with HEAD>
