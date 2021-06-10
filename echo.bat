@@ -1,3 +1,3 @@
-ECHO OFF
-ECHO First Commit
+ECHO Second Commit
+ECHO %DATE%
 PAUSE
